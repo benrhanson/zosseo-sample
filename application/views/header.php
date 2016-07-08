@@ -10,8 +10,21 @@
 	<link rel="stylesheet" type="text/css" href="<?= base_url('assets/css/style.css'); ?>" />
 </head>
 <body>
-<div id='header'>
+<div class = "container">
+	<div id='header'>
 		<img class= "img-responsive"src="assets/pictures/Drill_Site_Pics.PNG" alt="Drill Header">
-</div>
-</body>
-</html>
+		<!-- nav bar -->
+		<div class = "row">
+			<nav class = "navbar navbar-default">
+				<div class = "container-fluid">
+					<div class = "navbar-header">
+						<ul class = "nav navbar-nav">
+							<li><a href="/">Home</a></li>
+							<li><a href="/all">Articles</a></li>
+							<li><a href="/search">Search Articles</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div> <!-- nav bar ends -->
+	</div> <!--header ends -->

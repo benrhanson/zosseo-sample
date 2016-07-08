@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<title>Welcome to CodeIgniter</title>
-</head>
+<html>
 <body>
+
+<div class = "testify"> I AM TEXT OF SOME SORT.</div>
+
+</div> <!-- container ends -->
 
 </body>
 </html>

@@ -25,11 +25,38 @@ class Pages extends CI_Controller {
 	 */
 	public function index()
 	{
+		$this->output->enable_profiler(FALSE);
 		$this->load->view('header');
 		$this->load->view('home');
 	}
 
+	public function about()
+	{
+		$this->output->enable_profiler(FALSE);
+		$this->load->view('header');
+		$this->load->view('about');
+	}
 
+	public function store()
+	{
+		$this->output->enable_profiler(FALSE);
+		$this->load->view('header');
+		$this->load->view('store');
+	}	
+
+	public function contact()
+	{
+		$this->output->enable_profiler(FALSE);
+		$this->load->view('header');
+		$this->load->view('contact');
+	}
+
+	public function faq()
+	{
+		$this->output->enable_profiler(FALSE);
+		$this->load->view('header');
+		$this->load->view('home');
+	}	
 }
 
 /* End of file welcome.php */

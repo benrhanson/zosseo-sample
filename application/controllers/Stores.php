@@ -1,6 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class Pages extends CI_Controller {
+class Stores extends CI_Controller {
 
 	public function __construct()
 	{
@@ -23,34 +23,11 @@ class Pages extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see http://codeigniter.com/user_guide/general/urls.html
 	 */
-	public function index()
+	public function store()
 	{
 		$this->output->enable_profiler(FALSE);
 		$this->load->view('Static/header');
-		$this->load->view('Static/home');
+		$this->load->view('Store/store');
 	}
 
-	public function about()
-	{
-		$this->output->enable_profiler(FALSE);
-		$this->load->view('Static/header');
-		$this->load->view('Static/about');
-	}
-
-	public function contact()
-	{
-		$this->output->enable_profiler(FALSE);
-		$this->load->view('Static/header');
-		$this->load->view('Static/contact');
-	}
-
-	public function faq()
-	{
-		$this->output->enable_profiler(FALSE);
-		$this->load->view('Static/header');
-		$this->load->view('Static/faq');
-	}	
 }
-
-/* End of file welcome.php */
-/* Location: ./application/controllers/welcome.php */

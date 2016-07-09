@@ -43,7 +43,7 @@ $route['home'] = "Pages/index";
 $route['faq'] = "Pages/faq";
 $route['about'] = "Pages/about";
 $route['contact'] = "Pages/contact";
-$route['store'] = "Pages/store";
+$route['store'] = "Stores/store";
 $route['404_override'] = '';
 
 

@@ -134,3 +134,12 @@ a:hover {
 	background-color: #FFA333;
 	color: white;
 }
+
+/* refund page */
+.refund-title {
+	color: #CC7000;
+}
+
+.privacy-list {
+	padding: 2%;
+}

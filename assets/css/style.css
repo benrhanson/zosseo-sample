@@ -46,14 +46,33 @@ footer {
 	margin-right: auto;	
 }
 
+hr {
+	width: 85%;
+}
+
 .footer-text {
 	float: right;
 }
 
+a {
+	color: #FFA333;
+}
+
+a:hover {
+	text-decoration: none;
+	font-weight: bold;
+	color: #FFA333;
+}
+
 /* store pages */
 
-.shopping-cart {
-	background-color: orange;
+.shopping-cart-pic, .shopping-title{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.shopping-cart-pic {
+	width: 5%;
 }
 
 .product {
@@ -83,7 +102,7 @@ footer {
 }
 
 .product-text {
-	font-size: 125%;
+	font-size: 85%;
 }
 
 .product-text input {

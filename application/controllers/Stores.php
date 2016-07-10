@@ -8,21 +8,8 @@ class Stores extends CI_Controller {
 		$this->output->enable_profiler(TRUE);
 	}
 
-	/**
-	 * Index Page for this controller.
-	 *
-	 * Maps to the following URL
-	 * 		http://example.com/index.php/welcome
-	 *	- or -  
-	 * 		http://example.com/index.php/welcome/index
-	 *	- or -
-	 * Since this controller is set as the default controller in 
-	 * config/routes.php, it's displayed at http://example.com/
-	 *
-	 * So any other public methods not prefixed with an underscore will
-	 * map to /index.php/welcome/<method_name>
-	 * @see http://codeigniter.com/user_guide/general/urls.html
-	 */
+	// routes
+
 	public function store()
 	{
 		$this->output->enable_profiler(FALSE);
@@ -38,5 +25,22 @@ class Stores extends CI_Controller {
 		$this->load->view('Store/product1');
 		$this->load->view('Template/footer');
 	}	
+
+	// shopping cart
+	public function add_to_cart()
+	{
+		$price = $this->input->post('price');
+		$product_id = $this->input->post('product_id');
+		$qty = $this->input->post('qty');
+
+		$purchase_item = array(
+			'price' => $price * $qty,
+			'product_id' => $product_id,
+			'qty' => $qty
+		);
+
+		$this->session->set_userdata($purchase_item);
+		redirect(base_url('/store'));
+	}
 
 }

@@ -1,7 +1,28 @@
 <div class = "content">
 
 	<div class = "shopping-cart">
-		<p>I WILL BE THE SHOPPING CART. I WILL ONLY BE VISIBLE WHEN I HAVE ANYTHING INSIDE OF ME.</p>
+		<img class = "shopping-cart-pic" src="http://www.jpole-antenna.com/wordpress/wp-content/uploads/2012/05/shopping-cart.jpg">
+		<h2 class = "shopping-title">Shopping Cart</h2>
+		<br>
+		<div class = "cartdata">
+			<?php 
+				if ($this->session->userdata){
+					echo "<h4>Product: ";
+					echo $this->session->userdata('product_id');
+					echo "</h4>";					
+					echo "<h4>Quantity: ";
+					echo $this->session->userdata('qty');
+					echo "</h4>";
+					echo "<h4>Price (before tax and shipping): $";
+					echo $this->session->userdata('price');
+					echo "</h4>";					
+				}
+				else {
+					
+					echo "Your shopping cart is empty.";
+				}
+			?>			
+		</div>
 	</div>
 
 	<div class = "product-list">
@@ -20,8 +41,14 @@
 					<li>Adjustable to your osteotomy depth</li>
 				</ul>
 				<h4 class = "product-price">Price: $95.99</h4>
-				<a class = "purchase-button" href="product1">Purchase</a>				
+				<!-- adds the product to the shopping cart -->
+				<form action = "/stores/add_to_cart" method = "post">
+					<label>Quantity </label> <input type="text" name="qty">
+					<input type="hidden" name="product_id" value = "Zosseo Mini Kit">
+					<input type="hidden" name="price" value = "95.99">
+					<input type="submit" name="Add to Cart">
+				</form>			
 			</div>	
 		</div>
-			
+	</div> <!-- product-list -->
 </div> <!-- content ends -->

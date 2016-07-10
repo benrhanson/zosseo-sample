@@ -1,7 +1,28 @@
 <div class = "content">
 
 	<div class = "shopping-cart">
-		<p>I WILL BE THE SHOPPING CART. I WILL ONLY BE VISIBLE WHEN I HAVE ANYTHING INSIDE OF ME.</p>
+		<img class = "shopping-cart-pic" src="http://www.jpole-antenna.com/wordpress/wp-content/uploads/2012/05/shopping-cart.jpg">
+		<h2 class = "shopping-title">Shopping Cart</h2>
+		<br>
+		<div class = "cartdata">
+			<?php 
+				if ($this->session->userdata('price')){
+					echo "<h4>Product: ";
+					echo $this->session->userdata('product_id');
+					echo "</h4>";					
+					echo "<h4>Quantity: ";
+					echo $this->session->userdata('qty');
+					echo "</h4>";
+					echo "<h4>Price (before tax and shipping): $";
+					echo $this->session->userdata('price');
+					echo "</h4>";					
+				}
+				else {
+					
+					echo "<h4>Your shopping cart is empty.</h4>";
+				}
+			?>			
+		</div>
 	</div>
 
 	<div class = "product-list">

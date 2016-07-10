@@ -9,9 +9,4 @@
 		<p>I AM THE RIGHT COLUMN.</p>
 	</div>
 
-</div>
-
-</div> <!-- container ends -->
-
-</body>
-</html>
+</div> <!--content ends -->

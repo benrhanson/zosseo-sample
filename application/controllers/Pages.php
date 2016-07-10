@@ -26,29 +26,49 @@ class Pages extends CI_Controller {
 	public function index()
 	{
 		$this->output->enable_profiler(FALSE);
-		$this->load->view('Static/header');
+		$this->load->view('Template/header');
 		$this->load->view('Static/home');
+		$this->load->view('Template/footer');
 	}
 
 	public function about()
 	{
 		$this->output->enable_profiler(FALSE);
-		$this->load->view('Static/header');
+		$this->load->view('Template/header');
 		$this->load->view('Static/about');
+		$this->load->view('Template/footer');
 	}
 
 	public function contact()
 	{
 		$this->output->enable_profiler(FALSE);
-		$this->load->view('Static/header');
+		$this->load->view('Template/header');
 		$this->load->view('Static/contact');
+		$this->load->view('Template/footer');
 	}
 
 	public function faq()
 	{
 		$this->output->enable_profiler(FALSE);
-		$this->load->view('Static/header');
+		$this->load->view('Template/header');
 		$this->load->view('Static/faq');
+		$this->load->view('Template/footer');
+	}	
+
+	public function privacy()
+	{
+		$this->output->enable_profiler(FALSE);
+		$this->load->view('Template/header');
+		$this->load->view('Static/privacy-policy');
+		$this->load->view('Template/footer');
+	}	
+
+	public function refund()
+	{
+		$this->output->enable_profiler(FALSE);
+		$this->load->view('Template/header');
+		$this->load->view('Static/refund');
+		$this->load->view('Template/footer');
 	}	
 }
 

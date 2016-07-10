@@ -26,8 +26,17 @@ class Stores extends CI_Controller {
 	public function store()
 	{
 		$this->output->enable_profiler(FALSE);
-		$this->load->view('Static/header');
+		$this->load->view('Template/header');
 		$this->load->view('Store/store');
+		$this->load->view('Template/footer');
 	}
+
+	public function product1()
+	{
+		$this->output->enable_profiler(FALSE);
+		$this->load->view('Template/header');
+		$this->load->view('Store/product1');
+		$this->load->view('Template/footer');
+	}	
 
 }

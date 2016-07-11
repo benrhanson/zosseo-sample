@@ -158,8 +158,11 @@ a:hover {
 
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
-      margin: auto;
-  } 
+	width: auto;
+    margin: auto;
+    min-height: 300px;
+    max-height: 300px;
+} 
 
 #first-about-pic {
 	padding-bottom: 20%;
@@ -170,5 +173,15 @@ a:hover {
 	padding-top: 7%;
 }
 
-.faq-content {
+.order-today {
+	padding-top: 2%;
+	text-align: center;
+}
+
+.order-today > a > button {
+	font-size: 150%;
+}
+
+.carousel-color {
+	color: blue;
 }

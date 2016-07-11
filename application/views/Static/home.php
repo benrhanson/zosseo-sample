@@ -10,45 +10,33 @@
 	<!-- Wrapper for slides -->
 	<div class="carousel-inner" role="listbox">
 		<div class="item active">
-			<img class="image-responsive carousel-pic" src="assets/images/home/drill-home-1st-left.jpg" alt="First Drill">
+			<img class="image-responsive" src="assets/images/home/drill-home-1st-left.jpg" alt="First Drill">
 			<div class="carousel-caption">
-				<h5 class="orangeyy">Depth Control</h5>
-				<p class="orangeyy">ZOSSEO<sup>TM</sup> drill stops prevent over-drilling, and have been put into practice at hundreds of universities, dental, and surgical practices as a safe and inexpensive way to control vertical penetration</p>
+				<h5 class="carousel-color">Depth Control</h5>
+				<p class="carousel-color">ZOSSEO<sup>TM</sup> drill stops prevent over-drilling, and have been put into practice at hundreds of universities, dental, and surgical practices as a safe and inexpensive way to control vertical penetration</p>
 			</div>
 		</div>
 
 		<div class="item">
-			<img class="image-responsive carousel-pic" src="assets/images/home/drill-home-second-left.jpg" alt="Bigger Kit">
+			<img class="image-responsive" src="assets/images/home/drill-home-second-left.jpg" alt="Bigger Kit">
 			<div class="carousel-caption">
-				<h5 class="orangeyy">ZOSSEO<sup>TM</sup> Universal Implant Drill Stops</h5>
-				<p class="orangeyy">ZOSSEO<sup>TM</sup> penetrares precisely, minmizing visualiztion of depth control. It aids impant preparation positioning as related to adjacent teeth. It improves depth management in flap or flapless surgeries, keeps the osteotomy in the same shape if using tapered omplants, and can be used with surgical guides. It's also useful over extraction sites and defects with wide 6mm overhang.</p>
+				<h5 class="carousel-color">ZOSSEO<sup>TM</sup> Universal Implant Drill Stops</h5>
+				<p class="carousel-color">ZOSSEO<sup>TM</sup> penetrares precisely, minmizing visualiztion of depth control. It aids impant preparation positioning as related to adjacent teeth. It improves depth management in flap or flapless surgeries, keeps the osteotomy in the same shape if using tapered omplants, and can be used with surgical guides. It's also useful over extraction sites and defects with wide 6mm overhang.</p>
 			</div>
 		</div>
 
 		<div class="item">
-			<img class="image-responsive carousel-pic" src="assets/images/home/drill-home-first-right.jpg" alt="Mini Kit">
+			<img class="image-responsive" src="assets/images/home/drill-home-first-right.jpg" alt="Mini Kit">
 			<div class="carousel-caption">
-				<h5 class="orangeyy">ZOSSEO<sup>TM</sup> Universal Implant Drill Stops fits dozens of dental implant brands, including:</h5>
-				<ul class="orangeyy">
-					<li>AB</li>
-					<li>Ankylos</li>
-					<li>Astra</li>
-					<li>Bicon</li>
-					<li>biohorizon</li>
-					<li>Biomet 3i</li>
-					<li>Blue Sky</li>
-					<li>Dentsply</li>
-					<li>Glidewell</li>
-					<li>Hiossen</li>
-				</ul>
+				<h5 class="carousel-color">ZOSSEO<sup>TM</sup> Universal Implant Drill Stops fits dozens of dental implant brands, including:</h5>
 			</div>
 		</div>
 
 		<div class="item">
-			<img class="image-responsive carousel-pic" style="height: 60%" src="assets/images/home/home-right-second.jpg" alt="Rainbow Kit">
+			<img class="image-responsive" style="height: 60%" src="assets/images/home/home-right-second.jpg" alt="Rainbow Kit">
 			<div class="carousel-caption">
-				<h5 class="orangeyy">ZOSSEO<sup>TM</sup> Mini-Kit</h5>
-				<p class="orangeyy">The Mini-Kit is simple, sterilizable, and uses Endo-style drill stops. It contains drill-stops with multiple diameters, each inscribed on the respective stops. The Mini-Kit allows for adjustment dependign on your osteotomy depth.</p>
+				<h5 class="carousel-color">ZOSSEO<sup>TM</sup> Mini-Kit</h5>
+				<p class="carousel-color">The Mini-Kit is simple, sterilizable, and uses Endo-style drill stops. It contains drill-stops with multiple diameters, each inscribed on the respective stops. The Mini-Kit allows for adjustment dependign on your osteotomy depth.</p>
 			</div>
 		</div>
 
@@ -65,8 +53,8 @@
 	</a> 
 </div>
 
-<div class="Order-Today">
-	<a href="">
-		<button type="button" class="btn btn-warning" "special-button">Order Today!</button>
+<div class="order-today">
+	<a href="store">
+		<button type="button" class="btn btn-warning">Order Today!</button>
 	</a>
 </div>

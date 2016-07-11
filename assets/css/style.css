@@ -143,3 +143,32 @@ a:hover {
 .privacy-list {
 	padding: 2%;
 }
+
+.format {
+	color: orange;
+}
+
+.orangey {
+	color: darkorange;
+}
+
+.orangeyy {
+	color: darkorange;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+      margin: auto;
+  } 
+
+#first-about-pic {
+	padding-bottom: 20%;
+	padding-top: 20%;
+}
+
+.about-content {
+	padding-top: 7%;
+}
+
+.faq-content {
+}

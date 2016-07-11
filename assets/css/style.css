@@ -145,15 +145,15 @@ a:hover {
 }
 
 .format {
-	color: orange;
+	color: #FFA333;
 }
 
 .orangey {
-	color: darkorange;
+	color: #FFA333;
 }
 
 .orangeyy {
-	color: darkorange;
+	color: #FFA333;
 }
 
 .carousel-inner > .item > img,
@@ -184,4 +184,37 @@ a:hover {
 
 .carousel-color {
 	color: blue;
+}
+
+.video {
+	text-align: center;
+}
+
+.about-content {
+	text-align: center;
+}
+
+.privacy-list-1 {
+	padding-left: 28%;
+}
+
+.about-image-1 {
+	text-align: center;
+	padding-left: 3%;
+	padding-top: 4%;
+}
+
+.drillstops-text {
+	padding-top: 3%;
+	text-align: left;
+	margin: auto;
+	width: 70%;
+}
+
+.drillstop-title {
+	padding-bottom: 2%;
+}
+
+.small-text {
+	font-size: 10px;
 }
